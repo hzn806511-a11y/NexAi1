@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# اگر کسی به صفحه اصلی یا index.php آمد، او را مستقیماً به register.php بفرست
+RewriteRule ^(index\.php)?$ /register.php [R=301,L,NC]
